@@ -1,6 +1,6 @@
 
 
-const ws = new WebSocket("wss://socket-demo-3.onrender.com/");
+const ws = new WebSocket("ws://127.0.0.1:3000");
 
 function main() {
   const sendButton = document.getElementById("send");
